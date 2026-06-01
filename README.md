@@ -1,6 +1,12 @@
 # Buckshot-Roulette-Info-Tracker-py.
 A program that helps you keep track of all the information you need to in buckshot roulette. If you have bad short term memory, this is for you!
 
+INSTALL PYTHON BEFORE DOWNLOADING THIS PROGRAM AT https://www.python.org/downloads/
+1. Once on Python's offical website, click on "downloads"
+2. Choose the OS you run on
+3. Then choose to either install the python install manager (if you wish to keep python up to date) or install the latest release (both are at the top of each OS's download page)
+4. 
+
 This is a program that will help you track the following:
 1. how many shells are left
 2. What type of shells are left
