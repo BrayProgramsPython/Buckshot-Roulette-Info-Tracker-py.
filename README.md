@@ -5,7 +5,7 @@ INSTALL PYTHON BEFORE DOWNLOADING THIS PROGRAM AT https://www.python.org/downloa
 1. Once on Python's offical website, click on "downloads"
 2. Choose the OS you run on
 3. Then choose to either install the python install manager (if you wish to keep python up to date) or install the latest release (both are at the top of each OS's download page)
-4. 
+4. Simply download the program and you are all set!
 
 This is a program that will help you track the following:
 1. how many shells are left
