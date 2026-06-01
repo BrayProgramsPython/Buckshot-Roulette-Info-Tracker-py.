@@ -11,7 +11,8 @@ This is a program that will help you track the following:
 1. how many shells are left
 2. What type of shells are left
 3. which shell number rising and falling you are on (for burner phone)
-4. Max HP and player HP's (for when someone is skipped and you need to know wether to double damage them or not)
+4. The information provided by burner phone
+5. Max HP and player HP's (for when someone is skipped and you need to know wether to double damage them or not)
 
 This is the earliest release of this program. It has been in testing for quite some time and now I need other players to tell me what they think of it. You can run it either directly through python or through your computer's terminal, however you will need to download the code as well as install python for it to work.
 
