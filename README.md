@@ -16,10 +16,11 @@ This is a program that will help you track the following:
 
 This is the earliest release of this program. It has been in testing for quite some time and now I need other players to tell me what they think of it. You can run it either directly through python or through your computer's terminal, however you will need to download the code as well as install python for it to work.
 
-Development Roadmap for BRIT
-5/31/26 - Earliest Release for playtesting
-?/?/? - Improvments made based on player feedback
-?/?/? - Program altered to functions for quicker and simplier use (will do if this gets popular enough)
+Development Roadmap for BRIT:
+1. 5/31/26 - Earliest Release for playtesting
+2. ?/?/? - QOL update to fix known issues with dead-ends and visual count errors
+3. ?/?/? - Improvments made based on player feedback
+4. ?/?/? - Program altered to functions for quicker and simplier use (will do if this gets popular enough)
 
 How to use:
 For best use, have 2 monitors or have buckshot roullete windowed and allowing room for the program.
