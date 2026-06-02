@@ -23,8 +23,9 @@ Development Roadmap for BRIT:
 4. ?/?/? - Program altered to functions for quicker and simplier use (will do if this gets popular enough)
 
 How to use:
-For best use, have 2 monitors or have buckshot roullete windowed and allowing room for the program.
+For best use, have 2 monitors or have buckshot roulette windowed and allowing room for the program.
 Each prompt will give examples of what to type, but I will break it down here aswell. CASE SENSITIVE!
+
 1. enter the number of rounds (1-3) as a number, not spelled
 2. register players in your game in this order: left, right, across (press 0 to register, 1 to skip if no one is there)
 3. 1st round starts, enter max HP, as a number
