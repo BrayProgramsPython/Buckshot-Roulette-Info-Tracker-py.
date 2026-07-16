@@ -1,1 +1,1 @@
-7/16/2026 - Fixed issue where certain info blocks didn't print burner info
+7/16/2026 - Fixed issue where certain info blocks didn't print burner info, fixed issue where shell counts could go negative and added error trap to shell count inputs.
