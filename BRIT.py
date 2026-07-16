@@ -99,7 +99,20 @@ while True:
                             ask_burner = False
                         
                     fired_racked = input("Type f for fired or r for racked: ")
-                    fire = input("enter shell fired/racked (live/blank): ")
+                    while True:
+                        fire = input("enter shell fired/racked (live/blank): ")
+                        if fire == 'live' and live <= 0:
+                            print("Live already zero, entering blank")
+                            fire = 'blank'
+                            break
+                        elif fire == 'blank' and blank <= 0:
+                            print("Blank already zero, entering live")
+                            fire = 'live'
+                            break
+                        elif fire in ['live', 'blank']:
+                            break
+                        elif fire not in ['live', 'blank']:
+                            print("Enter LIVE or BLANK")
                     if fire == 'live' and fired_racked == 'f':
                         racked = False
                         live -= 1
