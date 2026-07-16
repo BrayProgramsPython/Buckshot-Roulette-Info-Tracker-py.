@@ -129,6 +129,10 @@ while True:
                                 print("blank:",blank)
                                 print("Shell # rising:",rise)
                                 print("Shell # falling:",fall)
+                                if burnNum == rise and burnNum == fall:
+                                    print("Shell",burnNum,burnShell,"100%")
+                                elif burnNum == rise or burnNum == fall:
+                                    print("Shell",burnNum,burnShell,"50/50")
                                 print("--------------------")
                                 print("")
                                 racked = True
@@ -161,6 +165,10 @@ while True:
                                 print("blank:",blank)
                                 print("Shell # rising:",rise)
                                 print("Shell # falling:",fall)
+                                if burnNum == rise and burnNum == fall:
+                                    print("Shell",burnNum,burnShell,"100%")
+                                elif burnNum == rise or burnNum == fall:
+                                    print("Shell",burnNum,burnShell,"50/50")
                                 print("--------------------")
                                 print("")
                                 racked = True
@@ -176,6 +184,10 @@ while True:
                         print("blank:",blank)
                         print("Shell # rising:",rise)
                         print("Shell # falling:",fall)
+                        if burnNum == rise and burnNum == fall:
+                            print("Shell",burnNum,burnShell,"100%")
+                        elif burnNum == rise or burnNum == fall:
+                            print("Shell",burnNum,burnShell,"50/50")
                         print("--------------------")
                         print("")
                     elif fire == 'blank' and fired_racked == 'r':
@@ -190,6 +202,10 @@ while True:
                         print("blank:",blank)
                         print("Shell # rising:",rise)
                         print("Shell # falling:",fall)
+                        if burnNum == rise and burnNum == fall:
+                            print("Shell",burnNum,burnShell,"100%")
+                        elif burnNum == rise or burnNum == fall:
+                            print("Shell",burnNum,burnShell,"50/50")
                         print("--------------------")
                         print("")
 
