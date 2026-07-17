@@ -1,1 +1,2 @@
 7/16/2026 - Fixed issue where certain info blocks didn't print burner info, fixed issue where shell counts could go negative and added error trap to shell count inputs.
+7/17/2026 - Fixed issue where health counts could go above max HP, added error trap for bad inputs on heal and stops for entering users that aren't in the game for healing.
