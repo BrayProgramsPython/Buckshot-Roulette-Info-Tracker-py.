@@ -77,14 +77,30 @@ while True:
                     keep_healing = True
                     while keep_healing == True:
                         heal = input("Did anyone heal? (left, right, across, self, or no): ")
-                        if heal == 'left':
+                        if heal == 'left' and setup_Left == 1:
+                            print("No player left")
+                        elif heal == 'left' and player_Left == maxHP:
+                            print("Player left already max HP")
+                        elif heal == 'left':
                             player_Left += 1
+                        if heal == 'right' and setup_Right == 1:
+                            print("No player right")
+                        elif heal == 'right' and player_Right == maxHP:
+                            print ("Player right already max HP")
                         elif heal == 'right':
                             player_Right += 1
+                        if heal == 'across' and setup_Across == 1:
+                            print("No player across")
+                        elif heal == 'across' and player_Across == maxHP:
+                            print("Player across already max HP")
                         elif heal == 'across':
                             player_Across += 1
+                        elif heal == 'self' and self == maxHP:
+                            print("You are already max HP")
                         elif heal == 'self':
                             self += 1
+                        elif heal not in ['left', 'right', 'across', 'self', 'no']:
+                            print("ENTER LEFT, RIGHT, ACROSS, SELF, OR NO")
                         elif heal == 'no':
                             keep_healing = False
                     
